@@ -314,7 +314,6 @@ a {
   font-size: 14px;
 
   &__item {
-    display: block;
     margin-bottom: 5px;
   }
 

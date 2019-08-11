@@ -51,6 +51,10 @@ function getVueOptions (name) {
                     links.email = `mailto:${this.person.contact.email}`;
                 }
 
+                if(this.person.contact.telegram) {
+                    links.telegram = `https://t.me/${this.person.contact.telegram}`;
+                }
+
                 if(this.person.contact.linkedin) {
                     links.linkedin = `https://linkedin.com/in/${this.person.contact.linkedin}`;
                 }

@@ -6,8 +6,13 @@ const lang = {
     experience: 'Experience',
     education: 'Education',
     skills: 'Skills',
+    languages: 'Languages',
     projects: 'Projects',
     contributions: 'Contributions',
-    about: 'About me'
+    hobbies: 'Hobbies',
+    about: 'About me',
+    personalInfo: 'Personal info',
+    location: 'Location',
+    birthDate: 'Date of birth'
 };
 export default lang;
