@@ -4,11 +4,10 @@ name:
   middle:
   last: Buzulukov
 
-about: A positive, self-motivated, fast-learner 4rd year student of HSE FCS SE.
-  Have a love for clean and highly efficient code, familiar with Linux.
-  Ready to learn new technologies and quickly get involved in work.
+about: Have knowlegde of Agile/Scrum, familiar with Linux.
+       Love functional programming.
 
-knowledge: Looking for a backend developer position on Java, Kotlin or Scala.
+knowledge: Looking for a backend developer position on Scala or Kotlin.
 
 position: Junior JVM Software Developer
 
@@ -22,14 +21,12 @@ experience:
 - company: Sberbank
   position: Scala Developer
   timeperiod: 10.2018 - present
-  description: ETL on Hadoop and Spark.
-               Developing inner source Scala framework to make it easier.
+  description: Developing inner source Scala framework for ETL on Hadoop and Spark. Also writing sbt plugin for friendly api usage.
 
 - company: Tinkoff Internship
   position: Java Developer
   timeperiod: 07.2018 - 08.2018
-  description: Made a web service on Spring (Boot, Data, AMQP) and Angular.
-               The code has been tested with JUnit and Mockito.
+  description: Made a Web Service on Spring (Boot, Data, AMQP) and Angular.
 
 education:
 - degree: Bachelor of Computer Science
@@ -39,19 +36,25 @@ education:
 # skill level goes 0 to 100
 skills:
 - name: Java
-  level: 90
+  level: 88
 - name: Scala
-  level: 83
+  level: 72
 - name: SQL
-  level: 92
-- name: Maven, Gradle, sbt
-  level: 78
-- name: Git
-  level: 87
-- name: C#, C++, Python, Kotlin
-  level: 56
+  level: 80
+- name: Kotlin, Python
+  level: 60
+- name: C#, C++
+  level: 50
 - name: HTML, CSS, JS, TS
-  level: 38
+  level: 35
+- name: Git
+  level: 80
+- name: Docker, Jenkins
+  level: 50
+- name: sbt
+  level: 80
+- name: Maven, Gradle
+  level: 60
 
 languages:
 - name: English
@@ -60,10 +63,21 @@ languages:
   level: Native
 
 projects:
+
+- name: Tygojira backend
+  platform: Kotlin, Spring, PostgreSQL
+  year: 2020
+  description: Academic team project, new Jira
+  url: https://github.com/RenaissanceTeam/tygojira_backend
+- name: Tygojira devops
+  platform: Groovy, Dockerfile
+  year: 2020
+  description: Build and deploy pipeline
+  url: https://github.com/RenaissanceTeam/tygojira_devops
 - name: Geohadoop
   platform: Java, Kotlin, Spring, RabbitMQ, PostgreSQL
   year: 2019
-  description: Distributed Geospatial Data Processing
+  description: Distributed Geospatial Data Processing via Actor model
   url: https://github.com/b1nd/geohadoop
 - name: Alliance
   platform: Java, JavaFX
@@ -97,12 +111,6 @@ hobbies:
   iconClass: fa fa-gamepad
   url:
 - name: Poker
-  iconClass:
-  url:
-- name: Skiing
-  iconClass:
-  url:
-- name: Chess
   iconClass:
   url:
 
