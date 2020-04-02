@@ -176,7 +176,7 @@
               <span class="section-content__text" style="margin-top: 2px">{{ project.year }}</span>
               <span class="section-content__header"> {{ project.name }} </span>
               <span v-if="project.platform" class="section-content__text--light" style="font-size: 0.875em">{{ project.platform }}</span>
-              <div class="section-content__text--light"> {{ project.description }} </div>
+              <div class="section-content__text--light" style="margin-top: 2px"> {{ project.description }} </div>
               <hr v-if="index !== (person.projects.length - 1)" class="section-content__hr"/>
             </a>
           </div>

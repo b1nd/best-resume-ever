@@ -20,7 +20,7 @@ birth:
 experience:
 - company: Sberbank
   position: Scala Developer
-  timeperiod: 10.2018 - present
+  timeperiod: 10.2018 - 02.2020
   description: Developing inner source Scala framework for ETL on Hadoop and Spark. Also writing sbt plugin for friendly api usage.
 
 - company: Tinkoff Internship
@@ -35,25 +35,19 @@ education:
 
 # skill level goes 0 to 100
 skills:
-- name: Java
-  level: 88
-- name: Scala
-  level: 72
+- name: Java, Scala, Kotlin
+  level: 85
 - name: SQL
-  level: 80
-- name: Kotlin, Python
+  level: 70
+- name: HTML, CSS, JS
+  level: 65
+- name: C#, C++, Python
   level: 60
-- name: C#, C++
-  level: 50
-- name: HTML, CSS, JS, TS
-  level: 35
 - name: Git
   level: 80
+- name: Maven, Gradle, sbt
+  level: 70
 - name: Docker, Jenkins
-  level: 50
-- name: sbt
-  level: 80
-- name: Maven, Gradle
   level: 60
 
 languages:
@@ -64,16 +58,26 @@ languages:
 
 projects:
 
-- name: Tygojira backend
-  platform: Kotlin, Spring, PostgreSQL
+- name: Tygojira web
+  platform: JS, Vue, Vuex, Vuetify
   year: 2020
-  description: Academic team project, new Jira
+  description: Academic team project web
+  url: https://github.com/RenaissanceTeam/tygojira_backend
+- name: Tygojira backend
+  platform: Kotlin, Spring, PostgreSQL, JWT, Swagger, Clean Architecture
+  year: 2020
+  description: Academic team project backend
   url: https://github.com/RenaissanceTeam/tygojira_backend
 - name: Tygojira devops
-  platform: Groovy, Dockerfile
+  platform: Groovy, Dockerfile, Jenkinsfile, nginx
   year: 2020
-  description: Build and deploy pipeline
+  description: Build and deploy pipelines
   url: https://github.com/RenaissanceTeam/tygojira_devops
+- name: COVID Android map
+  platform: Kotlin, Android, Google Maps, MVVM, Clean Architecture
+  year: 2020
+  description: Simple COVID-19 Android map and statistics
+  url: https://github.com/b1nd/covid-android-map
 - name: Geohadoop
   platform: Java, Kotlin, Spring, RabbitMQ, PostgreSQL
   year: 2019
@@ -89,19 +93,9 @@ projects:
   year: 2017
   description: LZ77, Shannon–Fano, Huffman algorithms encoder and decoder
   url: https://github.com/b1nd/Encoder
-- name: Compiler
-  platform: C#, ANTLR
-  year: 2017
-  description: Pascal to C# translator/compiler
-  url: https://github.com/b1nd/Compiler
-- name: Blind Collective Signature
-  platform: C#
-  year: 2016
-  description: Blind Collective Signature Cryptography library
-  url: https://github.com/b1nd/Blind-Collective-Signature
 - name: And many-many other small projects
   platform:
-  year: since 2014
+  year: since 2016
   description: Data structures & algorithms implementation, machine learning,
                coursera, homeworks, solvers
   url: https://github.com/b1nd?tab=repositories
