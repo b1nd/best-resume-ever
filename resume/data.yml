@@ -30,7 +30,7 @@ experience:
 
 education:
 - degree: Bachelor of Computer Science
-  timeperiod: 2016 - present
+  timeperiod: 2016 - 2020
   description: Software Engineering, Higher School of Economics
 
 # skill level goes 0 to 100
@@ -49,6 +49,8 @@ skills:
   level: 70
 - name: Docker, Jenkins
   level: 60
+- name: Jira, Bitbucket, GitHub
+  level: 80
 
 languages:
 - name: English
@@ -58,23 +60,23 @@ languages:
 
 projects:
 
-- name: Tygojira web
-  platform: JS, Vue, Vuex, Vuetify
+- name: flowernetes
+  platform: Kotlin, Spring, PostgreSQL, MongoDB, Kubernetes, Docker, JWT, Swagger, WebSocket, STOMP, Clean Architecture
   year: 2020
-  description: Academic team project web
-  url: https://github.com/RenaissanceTeam/tygojira_backend
-- name: Tygojira backend
-  platform: Kotlin, Spring, PostgreSQL, JWT, Swagger, Clean Architecture
+  description: Python Scripts Workflows on Kubernetes
+  url: https://github.com/b1nd/flowernetes
+- name: flowernetes web
+  platform: JS, Vue, Vuex, Vuetify, Vue Router, Plotly, D3
   year: 2020
-  description: Academic team project backend
-  url: https://github.com/RenaissanceTeam/tygojira_backend
-- name: Tygojira devops
+  description: UI for flowernetes
+  url: https://github.com/b1nd/flowernetes_web
+- name: flowernetes devops
   platform: Groovy, Dockerfile, Jenkinsfile, nginx
   year: 2020
-  description: Build and deploy pipelines
-  url: https://github.com/RenaissanceTeam/tygojira_devops
+  description: Build and deploy pipelines for flowernetes
+  url: https://github.com/b1nd/flowernetes_devops
 - name: COVID Android map
-  platform: Kotlin, Android, Google Maps, MVVM, Clean Architecture
+  platform: Android, Kotlin, Coroutines, Retrofit, Koin, MVVM, Clean Architecture
   year: 2020
   description: Simple COVID-19 Android map and statistics
   url: https://github.com/b1nd/covid-android-map
@@ -104,7 +106,7 @@ hobbies:
 - name: Video Games
   iconClass: fa fa-gamepad
   url:
-- name: Poker
+- name: Board Games
   iconClass:
   url:
 
