@@ -175,7 +175,7 @@
                :href="project.url">
               <span class="section-content__text" style="margin-top: 2px">{{ project.year }}</span>
               <span class="section-content__header"> {{ project.name }} </span>
-              <span v-if="project.platform" class="section-content__text--light" style="font-size: 0.875em">{{ project.platform }}</span>
+              <div v-if="project.platform" class="section-content__text--light" style="font-size: 0.875em">{{ project.platform }}</div>
               <div class="section-content__text--light" style="margin-top: 2px"> {{ project.description }} </div>
               <hr v-if="index !== (person.projects.length - 1)" class="section-content__hr"/>
             </a>
@@ -341,7 +341,7 @@
           .fa, .material-icons {
             font-size:13px;
             position:absolute;
-            top:-4px;
+            top:-5px;
             right:-2px;
             margin-left:50%;
             color:white;
@@ -415,7 +415,7 @@
 
     &__subheader {
       display: block;
-      font-size: 1.1em;
+      font-size: 1.05em;
       font-weight: 400;
     }
 
